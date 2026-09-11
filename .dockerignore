@@ -1,0 +1,10 @@
+.git
+.env
+vendor
+**/node_modules
+numerator-api
+storage/logs/*.log
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+database/*.sqlite

@@ -1,0 +1,158 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "value": "100",
+      "description": "T-Shirt Black/M",
+      "method": "credit_card",
+      "cardNumber": "3486",
+      "cardHolderName": "Fonsi Julian",
+      "cardExpirationDate": "04/28",
+      "cardCvv": "290"
+    },
+    {
+      "id": "2",
+      "value": "340.50",
+      "description": "T-Shirt Black/M",
+      "method": "debit_card",
+      "cardNumber": "4455",
+      "cardHolderName": "Charles Le Clerc",
+      "cardExpirationDate": "09/29",
+      "cardCvv": "998"
+    },
+    {
+      "id": "3",
+      "value": "200",
+      "description": "T-Shirt White/W",
+      "method": "debit_card",
+      "cardNumber": "6543",
+      "cardHolderName": "Bette Davis",
+      "cardExpirationDate": "06/26",
+      "cardCvv": "328"
+    },
+    {
+      "id": "6",
+      "value": "250.00",
+      "description": "T-Shirt",
+      "method": "credit_card",
+      "cardNumber": "2222",
+      "cardHolderName": "Simplenube Store",
+      "cardExpirationDate": "04/28",
+      "cardCvv": "222"
+    },
+    {
+      "id": "8",
+      "value": "340.50",
+      "description": "Remera Negra M",
+      "method": "debit_card",
+      "cardNumber": "4455",
+      "cardHolderName": "Charles Le Clerc",
+      "cardExpirationDate": "09/29",
+      "cardCvv": "998"
+    },
+    {
+      "id": "10",
+      "value": "340.50",
+      "description": "Remera Negra M",
+      "method": "debit_card",
+      "cardNumber": "4455",
+      "cardHolderName": "Charles Le Clerc",
+      "cardExpirationDate": "09/29",
+      "cardCvv": "998"
+    },
+    {
+      "id": "12",
+      "value": "250.00",
+      "description": "T-Shirt",
+      "method": "credit_card",
+      "cardNumber": "2222",
+      "cardHolderName": "Simplenube Store",
+      "cardExpirationDate": "04/28",
+      "cardCvv": "222"
+    },
+    {
+      "id": "14",
+      "value": "250.00",
+      "description": "T-Shirt",
+      "method": "credit_card",
+      "cardNumber": "2222",
+      "cardHolderName": "Simplenube Store",
+      "cardExpirationDate": "04/28",
+      "cardCvv": "222"
+    }
+  ],
+  "receivables": [
+    {
+      "id": "1",
+      "status": "paid",
+      "create_date": "15/03/2020",
+      "subtotal": "340.50",
+      "discount": "2",
+      "total": "333.69",
+      "transaction_id": "2"
+    },
+    {
+      "id": "2",
+      "status": "paid",
+      "create_date": "15/03/2020",
+      "subtotal": "200",
+      "discount": "2",
+      "total": "196",
+      "transaction_id": "3"
+    },
+    {
+      "id": "3",
+      "status": "waiting_funds",
+      "create_date": "15/03/2020",
+      "subtotal": "100",
+      "discount": "4",
+      "total": "96",
+      "transaction_id": "1"
+    },
+    {
+      "id": "7",
+      "transaction_id": "6",
+      "status": "waiting_funds",
+      "create_date": "2026-09-10T13:22:19.970+00:00",
+      "subtotal": "250.00",
+      "discount": "4",
+      "total": "240.00"
+    },
+    {
+      "id": "9",
+      "transaction_id": "8",
+      "status": "paid",
+      "create_date": "2026-09-10T13:43:29.017+00:00",
+      "subtotal": "340.50",
+      "discount": "2",
+      "total": "333.69"
+    },
+    {
+      "id": "11",
+      "transaction_id": "10",
+      "status": "paid",
+      "create_date": "2026-09-10T13:43:50.995+00:00",
+      "subtotal": "340.50",
+      "discount": "2",
+      "total": "333.69"
+    },
+    {
+      "id": "13",
+      "transaction_id": "12",
+      "status": "waiting_funds",
+      "create_date": "2026-09-10T13:44:03.093+00:00",
+      "subtotal": "250.00",
+      "discount": "4",
+      "total": "240.00"
+    },
+    {
+      "id": "15",
+      "transaction_id": "14",
+      "status": "waiting_funds",
+      "create_date": "2026-09-10T13:58:12.453+00:00",
+      "subtotal": "250.00",
+      "discount": "4",
+      "total": "240.00"
+    }
+  ]
+}
